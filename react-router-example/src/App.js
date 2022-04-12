@@ -1,10 +1,11 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Router } from 'react-router-dom';
 
 import Home from './views/Home';
 import About from './views/About';
 import Error from './views/Error';
 import Products from './views/Products';
+import ProductInfo from './views/ProductInfo';
 
 import Navbar from './components/Navbar';
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/" element={ <Home /> } />
         <Route path="/om" element={ <About /> } />
         <Route path="/produkter" element={ <Products /> } />
+        <Route path="/produkt/:id" element={ <ProductInfo /> } />
         <Route path="*" element={ <Error /> } /> { /* Alla url:er som inte är ovanstående ger vår 404-sida */ }
       </Routes>
     </div>
