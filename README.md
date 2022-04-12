@@ -26,3 +26,5 @@ React router: https://reactrouter.com/
 ## Videor
 
 ## Inspelningar
+
+https://funet-my.sharepoint.com/:f:/g/personal/christoffer_wallenberg_folkuniversitetet_se/Er5LPEhXz-1Lm4i-EJqi8DABUdQOQpjHXX5jS9eq0zAZUg?e=YzpFEl
