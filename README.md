@@ -1,1 +1,26 @@
-# lektion-12-april
+# Lektion 12 april
+
+## Övningar
+
+**Pages**
+
+Gör en enkel layout bestående av header, och tre routes med 3st vy-komponenter ( views ). Headern ska innehålla en navigering mellan vyerna ( links ).
+
+- Home
+- About
+- Products
+  - Product
+
+Du får själva komma på några produkter men kan också ta samma som i shopping cart - övningen.
+
+**Create an account**
+
+Använd React router och återskapa nedanstående skiss.
+
+https://www.figma.com/file/sEMBLMjbgtdlAkRTgfbVrF/Frameworks---Create-account?node-id=0%3A1
+
+## Artiklar
+
+## Videor
+
+## Inspelningar
