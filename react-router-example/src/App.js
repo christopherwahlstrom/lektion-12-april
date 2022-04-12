@@ -3,8 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 
 import Home from './views/Home';
 import About from './views/About';
-import Navbar from './components/Navbar';
 import Error from './views/Error';
+import Products from './views/Products';
+
+import Navbar from './components/Navbar';
 
 /**
  * URL: / - Komponent: Home.js
@@ -20,8 +22,9 @@ function App() {
         <Navbar />
       </header>
       <Routes>
-        <Route path='/' element={ <Home /> } />
-        <Route path='/om' element={ <About /> } />
+        <Route path="/" element={ <Home /> } />
+        <Route path="/om" element={ <About /> } />
+        <Route path="/produkter" element={ <Products /> } />
         <Route path="*" element={ <Error /> } /> { /* Alla url:er som inte är ovanstående ger vår 404-sida */ }
       </Routes>
     </div>
