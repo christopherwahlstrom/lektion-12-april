@@ -22,5 +22,11 @@
         "title": "The Adventures of Sherlock Holmes",
         "author": "Sir Arthur Conan Doyle",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, unde distinctio? Officia sed sit tempora. Vitae tenetur deleniti maiores beatae, inventore commodi! Est nihil adipisci iusto minus, magnam blanditiis temporibus."
+    },
+    {
+        "id": 5,
+        "title": "Firestarter",
+        "author": "Stephen King",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, unde distinctio? Officia sed sit tempora. Vitae tenetur deleniti maiores beatae, inventore commodi! Est nihil adipisci iusto minus, magnam blanditiis temporibus."
     }
 ]
