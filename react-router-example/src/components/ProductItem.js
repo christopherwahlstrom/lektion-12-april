@@ -9,7 +9,9 @@ function ProductItem(props) {
         <article className='product-item'>
             <h3>{ product.title }</h3>
             <h4>{ product.author }</h4>
-            <Link to={ path }>Läs mer</Link>
+            <button className='product__button'>
+                <Link to={ path }>Läs mer</Link>
+            </button>
         </article>
     )
 }
